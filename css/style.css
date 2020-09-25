@@ -107,6 +107,7 @@ a {
 }
 .sas img {
    max-width: 80px;
+      width: 100%;
 }
 .dost h1 {
    font-size: 45px;
