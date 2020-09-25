@@ -105,6 +105,9 @@ a {
    text-align: center;
    padding: 100px;
 }
+.sas img {
+   max-width: 80px;
+}
 .dost h1 {
    font-size: 45px;
    color: #DE0E00;
@@ -167,11 +170,66 @@ h2 {
    display: block;
    font-weight: 600;
    font-size: 20px;
+}
+
+/* ============ about_us ================ */
+.about_us_block {
+   text-align: center;
+   max-width: 100%;
+   height: 100vh;
+}
+
+/* ============ contakts ================ */
+.contakts_block {
+   text-align: center;
+   max-width: 100%;
+
+}
+.contakts_block_foto {
+   align-items: center;
+}
+
+.contakts_block_foto img {
+   max-width: 600px;
+   width: 100%;
+}
+
+.contakts_block_foto iframe {
+   max-width: 600px;
+   width: 100%;
+   max-height: 337px;
+}
+
+/* ============ ФУТЕР ================ */
+
+.row_footer {
+   display: flex;
+   background: #263238;
+   min-height: 250px;
+}
+
+.footer {
+   display: flex;
+   margin: 0 auto;
+   max-width: 1600px;
+   flex-wrap: wrap;
+   justify-content: center;
+
 
 }
 
+.rovno {
+   min-width: 33.333333;
+   min-width: 280px;
+   border: 1px solid #FBFBFB;
+   text-align: center;
+   padding: 20px 50px 0;
+}
 
-/* ============ Медиа 1200 ====================== */
+.rovno h3 {
+   color: #999;
+}
+/* ============ Медиа 1200 ============== */
 
 @media (max-width: 1200px) {
 
