@@ -107,7 +107,7 @@ a {
 }
 .sas img {
    max-width: 80px;
-      width: 100%;
+   width: 100%;
 }
 .dost h1 {
    font-size: 45px;
@@ -135,9 +135,7 @@ h2 {
 
 
 /* ============= доставка ========= */
-.priem {
 
-}
 
 .priem-link {
    display: flex;
@@ -324,4 +322,7 @@ h2 {
       padding: 10px 20px;
       margin: 0;
    }
+   .rovno {
+      padding: 0;
+   } 
 }
