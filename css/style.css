@@ -294,6 +294,10 @@ h2 {
    .info-bg h2 {
       text-align: center;
    }
+   .priem-link_item {
+      width: 270px;
+   }
+      
 }
 
 /* =========== Медиа 750 ============== */
@@ -342,5 +346,12 @@ h2 {
    }
    .rovno {
       padding: 0;
-   } 
+   }
+   .info-bg p {
+      font-size: 18px;
+      margin: 0px 0 20px;
+  }
+   .priem-link {
+      margin: 0 0 20px;
+   }
 }
