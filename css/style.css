@@ -38,7 +38,7 @@ a {
    display: flex;
    justify-content: space-evenly;
    align-items: center;
-   background: #00388D;
+   background: #2a2c2f;
 }
 
 .menu-link {
@@ -52,7 +52,7 @@ a {
 }
 .menu-link__item {
    margin-right: 35px;
-   font-size: 20px;
+   font-size: 16px;
    letter-spacing: 1px;
    font-weight: 600;
    padding: 20px;
@@ -73,7 +73,7 @@ a {
 .tel a {
    color: #fff;
    font-weight: 700;
-   font-size: 18px;
+   font-size: 16px;
    letter-spacing: 1px;
 }
 
@@ -87,23 +87,18 @@ a {
    max-width: 100%;
 }
 
+.image_bg img {
+   max-width: 400px;
+}
 
 .info-bg {
-   /* position: absolute;
-   top: 150px;
-   right: 10%;
-   text-align: center;
-   max-width: 700px; */
-   /* background: #FFEE91; */
-   /* border-radius: 20%;
-   color: #000; */
    padding: 20px 30px;
-   text-align: center;
+
 }
 .dost {
    background: #FFDE30;
    text-align: center;
-   padding: 100px;
+   padding: 20px;
 }
 .sas img {
    max-width: 80px;
@@ -115,21 +110,22 @@ a {
    margin: 0 auto;
 }
 .dost h2 {
-   color: #00388D;
+   color: #2a2c2f;
 }
 
 .info-bg h2 {
-   font-size: 35px;
+   font-size: 30px;
+   text-align: left;
 }
 
 .info-bg p {
-   font-size: 25px;
+   font-size: 20px;
 }
 
 h2 {
-   font-size: 35px;
+   font-size: 30px;
    text-align: center;
-   margin-bottom: 50px;
+   margin-bottom: 10px;
 }
 
 
@@ -153,6 +149,7 @@ h2 {
    border: solid 1px rgb(179, 177, 177);
    border-radius: 5px;
    background: #FBFBFB;
+   
 }
 .priem-link_item i {
    font-size: 25px;
@@ -162,7 +159,7 @@ h2 {
    text-align: center;
    border-radius: 50%;
    align-items: center;
-   margin-bottom: 10px;
+   margin: 10px 0 20px;
 
 }
 .priem-link_item span {
