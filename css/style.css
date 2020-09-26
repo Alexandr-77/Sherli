@@ -72,9 +72,9 @@ a {
 }
 
 
-.fas {
-   margin: 0 15px;
+.tel a i {
    color: #fff;
+   margin: 0 15px;
    font-size: 18px;
    transition: all 5s;
 }
@@ -245,6 +245,8 @@ h2 {
 .rovno p a i {
    color: rgb(240, 207, 20);
    transform: none;
+   margin: 0 15px;
+   font-size: 18px;
 
 }
 
