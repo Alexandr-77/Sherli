@@ -58,14 +58,17 @@ a {
    letter-spacing: 1.5px;
    font-weight: 600;
    padding: 20px;
+
 }
 
 .menu-link__item a {
    text-decoration: none;
    color: #fff;
+   transition: all 2s;
 }
 .menu-link__item a:hover {
    color:#FCFF46;
+   transition: all 0.5s;
 }
 
 
@@ -73,6 +76,7 @@ a {
    margin: 0 15px;
    color: #fff;
    font-size: 18px;
+   transition: all 5s;
 }
 
 .tel a {
@@ -80,14 +84,19 @@ a {
    font-weight: 700;
    font-size: 16px;
    letter-spacing: 1px;
+   transition: all 2s;
 }
 
 .tel a:hover {
    color:#FCFF46;
+   transition: all 0.5s red;
 }
 .tel a:hover i {
    color:#FCFF46;
+   transition: all 1s;
 }
+
+/* ======= Навигиция конец ======== */
 
 .header_set {
    display: flex;
@@ -223,14 +232,26 @@ h2 {
    max-width: 1600px;
    flex-wrap: wrap;
    justify-content: center;
+}
 
+.footer_left_meseng {
+   display: flex;
+   justify-content: center;
+
+}
+.rovno p a {
+   color: #fff;
+}
+.rovno p a i {
+   color: rgb(240, 207, 20);
+   transform: none;
 
 }
 
 .rovno {
    min-width: 33.333333;
    min-width: 280px;
-   border: 1px solid #FBFBFB;
+   border: 1px solid #383131;
    text-align: center;
    padding: 20px 50px 0;
 }
@@ -238,6 +259,15 @@ h2 {
 .rovno h3 {
    color: #999;
 }
+
+.rovno p a .fab {
+   margin: 0 15px;
+   color: rgb(240, 207, 20);
+   font-size: 30px;
+
+}
+/* ============ Медиа 1200 ============== */
+/* ============ Медиа 1200 ============== */
 /* ============ Медиа 1200 ============== */
 
 @media (max-width: 1200px) {
