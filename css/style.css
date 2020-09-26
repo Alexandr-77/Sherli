@@ -64,7 +64,7 @@ a {
 .menu-link__item a {
    text-decoration: none;
    color: #fff;
-   transition: all 2s;
+   transition: 2s;
 }
 .menu-link__item a:hover {
    color:#FCFF46;
@@ -76,6 +76,7 @@ a {
    color: #fff;
    margin: 0 15px;
    font-size: 18px;
+   transition: 0.5s;
 }
 
 .tel a {
@@ -83,16 +84,16 @@ a {
    font-weight: 700;
    font-size: 16px;
    letter-spacing: 1px;
-   transition: all 2s;
+   transition: 0.5s;
 }
 
 .tel a:hover {
    color:#FCFF46;
-   transition: all 0.5s red;
+   transition: 0.5s;
 }
 .tel a:hover i {
    color:#FCFF46;
-   transition: all 1s;
+   transition: 0.5s;
 }
 
 /* ======= Навигиция конец ======== */
@@ -239,6 +240,11 @@ h2 {
 }
 .rovno p a {
    color: #fff;
+   transition: 1s;
+}
+.rovno p a:hover {
+   color: rgb(248, 222, 71);
+   transition: 0.2s;
 }
 .rovno p a i {
    color: rgb(240, 207, 20);
