@@ -220,7 +220,6 @@ h2 {
 /* ============ ФУТЕР ================ */
 
 .row_footer {
-   display: flex;
    background: #2a2c2f;
    min-height: 250px;
 }
@@ -228,9 +227,9 @@ h2 {
 .footer {
    display: flex;
    margin: 0 auto;
-   max-width: 1600px;
+   /* max-width: 1600px; */
    flex-wrap: wrap;
-   justify-content: center;
+   justify-content: space-around;
 }
 
 .footer_left_meseng {
@@ -248,15 +247,17 @@ h2 {
 }
 
 .rovno {
-   min-width: 33.333333;
+   /* min-width: 33.333333; */
    min-width: 280px;
-   border: 1px solid #383131;
    text-align: center;
    padding: 20px 50px 0;
 }
 
 .rovno h3 {
    color: #999;
+}
+.rovno p {
+   color: #fff;
 }
 
 .rovno p a .fab {
