@@ -264,8 +264,8 @@ h2 {
    margin: 0 15px;
    color: rgb(240, 207, 20);
    font-size: 30px;
-
 }
+
 /* ============ Медиа 1200 ============== */
 /* ============ Медиа 1200 ============== */
 /* ============ Медиа 1200 ============== */
@@ -361,24 +361,29 @@ h2 {
       text-align: center;
    }
    .dost {
-      padding: 50px;
+      padding: 20px 10px;
    }
    .dost h1 {
-      font-size: 35px;
+      font-size: 30px;
    }
    .dost h2 {
       padding: 20px 0;
-      font-size: 25px;
+      font-size: 22px;
    }
    h2 {
       padding: 10px 20px;
       margin: 0;
+      font-size: 22px;
    }
    .rovno {
       padding: 0;
    }
+   .info-bg h2 {
+      font-size: 22px;
+      margin: 10px 0;
+  }
    .info-bg p {
-      font-size: 18px;
+      font-size: 16px;
       margin: 0px 0 20px;
   }
    .priem-link {
