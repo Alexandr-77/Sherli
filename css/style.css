@@ -97,25 +97,6 @@ a {
 }
 
 /* ======= Навигиция конец ======== */
-
-.header_set {
-   display: flex;
-   max-width: 1600px;
-   margin: 0 auto;
-   flex-wrap: nowrap;
-}
-.image_bg {
-   max-width: 100%;
-}
-
-.image_bg img {
-   max-width: 400px;
-}
-
-.info-bg {
-   padding: 0px 20px;
-
-}
 .dost {
    background: #FFDE30;
    text-align: center;
@@ -125,6 +106,7 @@ a {
    max-width: 80px;
    width: 100%;
 }
+
 .dost h1 {
    font-size: 45px;
    color: #DE0E00;
@@ -133,14 +115,36 @@ a {
 .dost h2 {
    color: #2a2c2f;
 }
+.header_set {
+   display: flex;
+   max-width: 1600px;
+   margin: 2% auto;
+   flex-wrap: nowrap;
+
+}
+.image_bg {
+   max-width: 100%;
+}
+
+.image_bg img {
+   max-width: 300px;
+   /* box-shadow: 2px 13px 40px #c3c3c3; */
+   border: 1px solid #dfdfdf;
+   box-shadow: #ccc 0px 2px 5px;
+}
+
+.info-bg {
+   padding: 0px 20px;
+
+}
 
 .info-bg h2 {
-   font-size: 30px;
+   font-size: 25px;
    text-align: left;
 }
 
 .info-bg p {
-   font-size: 20px;
+   font-size: 17px;
    margin-bottom: 0;
 }
 
@@ -201,10 +205,11 @@ h2 {
 .contakts_block {
    text-align: center;
    max-width: 100%;
-
 }
 .contakts_block_foto {
    align-items: center;
+   height: 60vh;   /* потом убрать */
+
 }
 
 .contakts_block_foto img {
@@ -278,15 +283,7 @@ h2 {
 
 @media (max-width: 1200px) {
 
-   .image_bg img {
-      max-width: 600px;
-   }
-   .info-bg h2 {
-      margin: 20px 0;
-   }
-   .info-bg p {
-      font-size: 20px;
-   }
+
 }
 
 /* =========== Медиа 1040 ======================== */
@@ -295,12 +292,6 @@ h2 {
 
    .tel-block {
       display: none;
-   }
-   .info-bg h2 {
-      margin: 20px 0;
-   }
-   .info-bg p {
-      font-size: 20px;
    }
    .priem-link {
       flex-wrap: wrap;
@@ -320,7 +311,6 @@ h2 {
       text-align: center;
    }
    .image_bg img {
-
       text-align: center;
       width: 100%;
    }
