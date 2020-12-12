@@ -14,7 +14,6 @@ a {
 
 
 .container {
-   /* max-width: 1200px; */
    margin: 0 auto;
 }
 
@@ -115,11 +114,53 @@ a {
 .dost h2 {
    color: #2a2c2f;
 }
+/* ===================   слайдер   ============ */
+.slayder {
+   background: #FFDE30;
+   margin-bottom: 60px;
+}
+.your-class {
+   max-width: 1600px;
+   min-height: 500px;
+   margin: 0 auto;
+   padding: 20px 0 80px;
+   /* overflow: hidden; */
+
+}
+.your-class__item {
+   text-align: center;
+   max-height: 500px;
+
+}
+
+.your-class__item img {
+   max-width: 100%;
+}
+
+.slick-dots li {
+   margin: 25px 25px;
+}
+
+.slick-dots li button:before {
+   display: none;
+}
+.slick-dots li button {
+   border-radius: 50%;
+   background: #E6BC27;
+   color: transparent;
+   margin: -30px ;
+}
+.slick-dots li.slick-active button{
+   background: #f1fa5e;
+}
+/* ============  слайдер конец   ============ */
+
 .header_set {
    display: flex;
-   max-width: 1600px;
-   margin: 2% auto;
+   max-width: 1200px;
+   margin: 0 auto;
    flex-wrap: nowrap;
+   padding: 2% ;
 
 }
 .image_bg {
@@ -135,12 +176,12 @@ a {
 
 .info-bg {
    padding: 0px 20px;
-
 }
 
 .info-bg h2 {
    font-size: 25px;
    text-align: left;
+   margin: 0 ;
 }
 
 .info-bg p {
@@ -166,16 +207,18 @@ h2 {
 
 }
 .priem-link_item {
-   width: 180px;
+   width: 200px;
+   min-height: 200px;
    color: #000;
    font-size: 20px;
    margin: 20px;
    padding: 1%;
+   padding-top: 50px;
    text-align: center;
    border: solid 1px rgb(179, 177, 177);
    border-radius: 5px;
    background: #FBFBFB;
-   
+   align-items: center;
 }
 .priem-link_item i {
    font-size: 25px;
@@ -186,6 +229,8 @@ h2 {
    border-radius: 50%;
    align-items: center;
    margin: 10px 0 20px;
+   width: 30px;
+   height: 30px;
 
 }
 .priem-link_item span {
@@ -241,8 +286,20 @@ h2 {
 .footer_left_meseng {
    display: flex;
    justify-content: center;
-
 }
+
+p a i.fa-whatsapp:hover {
+   color: #49C95A;
+}
+p a i.fa-telegram-plane:hover {
+   color: #2DA4E1;
+}
+p a i.fa-instagram:hover {
+   color: #833AB4;
+}
+
+
+
 .rovno p a {
    color: #fff;
    transition: 1s;
@@ -258,7 +315,6 @@ h2 {
 }
 
 .rovno {
-   /* min-width: 33.333333; */
    min-width: 280px;
    text-align: center;
    padding: 20px 50px 0;
