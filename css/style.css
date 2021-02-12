@@ -66,7 +66,7 @@ a {
    transition: 2s;
 }
 .menu-link__item a:hover {
-   color:#FCFF46;
+   color:#f3db04;
    transition: all 0.5s;
 }
 
@@ -87,11 +87,11 @@ a {
 }
 
 .tel a:hover {
-   color:#FCFF46;
+   color:#fcce00;
    transition: 0.5s;
 }
 .tel a:hover i {
-   color:#FCFF46;
+   color:#fcce00;
    transition: 0.5s;
 }
 
@@ -203,21 +203,22 @@ h2 {
 .priem-link {
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
    margin: 30px 0;
+   padding: 0 20px;
 
 }
 .priem-link_item {
    width: 200px;
-   min-height: 200px;
+   min-height: 150px;
    color: #000;
    font-size: 20px;
    margin: 20px;
-   padding: 1%;
-   padding-top: 50px;
+   padding: 20px 20px;
    text-align: center;
    border: solid 1px rgb(179, 177, 177);
    border-radius: 5px;
-   background: #FBFBFB;
+   background: #FFDE30;
    align-items: center;
 }
 .priem-link_item i {
